@@ -2,7 +2,6 @@ export default function HowItWorks() {
   return (
     <section className="w-full bg-black text-white py-20">
       <div className="max-w-7xl mx-auto px-6 md:px-10">
-        {/* Section Title */}
         <h2 className="text-center text-3xl md:text-4xl font-extrabold">
           How <span className="text-[#fa343a]">It Works</span>
         </h2>
@@ -11,9 +10,7 @@ export default function HowItWorks() {
           AI agent on WhatsApp.
         </p>
 
-        {/* Steps */}
         <div className="mt-14 grid grid-cols-1 md:grid-cols-3 gap-10">
-          {/* Step 1 */}
           <div className="bg-[#1a1a1a] p-7 rounded-2xl border border-[#fa343a25] hover:border-[#fa343a] transition">
             <div className="w-12 h-12 flex items-center justify-center bg-[#fa343a] text-white rounded-xl text-xl font-bold">
               1
@@ -26,7 +23,6 @@ export default function HowItWorks() {
             </p>
           </div>
 
-          {/* Step 2 */}
           <div className="bg-[#1a1a1a] p-7 rounded-2xl border border-[#fa343a25] hover:border-[#fa343a] transition">
             <div className="w-12 h-12 flex items-center justify-center bg-[#fa343a] text-white rounded-xl text-xl font-bold">
               2
@@ -39,7 +35,6 @@ export default function HowItWorks() {
             </p>
           </div>
 
-          {/* Step 3 */}
           <div className="bg-[#1a1a1a] p-7 rounded-2xl border border-[#fa343a25] hover:border-[#fa343a] transition">
             <div className="w-12 h-12 flex items-center justify-center bg-[#fa343a] text-white rounded-xl text-xl font-bold">
               3
