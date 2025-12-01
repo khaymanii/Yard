@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { MessageCircle } from "lucide-react";
 
 function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -31,10 +32,9 @@ function Header() {
           href="https://wa.me/2340000000000"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-[#fa343a] text-white px-4 py-1.5 rounded-xl text-sm font-medium 
-  hover:bg-[#e30a11] transition shadow-sm hover:shadow-md"
+          className="text-white px-4 py-1.5 rounded-xl text-sm font-medium shadow-sm hover:shadow-md flex justify-center items-center gap-2"
         >
-          Talk To Yard
+          <MessageCircle color="#fa343a" />{" "}
         </a>
       </div>
     </nav>

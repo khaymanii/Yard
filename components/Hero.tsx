@@ -1,5 +1,7 @@
 "use client";
 
+import { MessageCircle } from "lucide-react";
+
 function Hero() {
   return (
     <section className="w-full bg-black text-white pt-16 pb-20 md:pt-20 md:pb-24">
@@ -20,10 +22,11 @@ function Hero() {
             href="https://wa.me/2340000000000"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block w-full sm:w-auto mt-7 bg-[#fa343a] text-white px-6 py-3 rounded-xl text-sm sm:text-base font-semibold 
-            hover:bg-[#e30a11] transition shadow-sm hover:shadow-lg"
+            className="w-full sm:w-auto mt-7 bg-[#fa343a] text-white px-6 py-3 rounded-xl text-sm sm:text-base font-semibold 
+            hover:bg-[#e30a11] transition shadow-sm hover:shadow-lg flex justify-center items-center gap-2"
           >
             Talk To Yard on WhatsApp
+            <MessageCircle />{" "}
           </a>
         </div>
 
