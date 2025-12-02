@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { MessageCircle } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa6";
 
 function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -24,7 +25,7 @@ function Header() {
       <div className="max-w-7xl mx-auto px-5 md:px-8 py-2 flex items-center justify-between">
         <div className="flex items-center space-x-2">
           <Link href="/">
-            <h1 className="font-bold text-[#fa343a] text-2xl">Yard</h1>
+            <h2 className="text-2xl font-extrabold text-[#fa343a]">Yard.</h2>
           </Link>
         </div>
 
@@ -32,9 +33,9 @@ function Header() {
           href="https://wa.me/2340000000000"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-white px-4 py-1.5 rounded-xl text-sm font-medium shadow-sm hover:shadow-md flex justify-center items-center gap-2"
+          className="text-white animate-spin bg-[#fa343a] hover:bg-[#e30a11] w-10 h-10 rounded-full text-sm font-medium shadow-sm hover:shadow-md flex justify-center items-center gap-2"
         >
-          <MessageCircle color="#fa343a" />{" "}
+          <FaWhatsapp size={24} />
         </a>
       </div>
     </nav>

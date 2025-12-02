@@ -1,6 +1,6 @@
 "use client";
 
-import { MessageCircle } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa6";
 
 function Hero() {
   return (
@@ -26,8 +26,8 @@ function Hero() {
             className="w-full sm:w-auto mt-7 bg-[#fa343a] text-white px-6 py-3 rounded-xl text-sm sm:text-base font-semibold 
             hover:bg-[#e30a11] transition shadow-sm hover:shadow-lg flex justify-center items-center gap-2"
           >
-            Talk To Yard on WhatsApp
-            <MessageCircle />{" "}
+            Talk To Yard Now
+            <FaWhatsapp size={28} />
           </a>
         </div>
 
