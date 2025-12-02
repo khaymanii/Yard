@@ -1,4 +1,6 @@
 import Link from "next/link";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaLinkedinIn } from "react-icons/fa6";
 
 export default function Footer() {
   return (
@@ -19,14 +21,7 @@ export default function Footer() {
                 href="#"
                 className="p-2 rounded-lg bg-[#1a1a1a] hover:bg-[#fa343a] transition"
               >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="white"
-                  viewBox="0 0 24 24"
-                  className="w-5 h-5"
-                >
-                  <path d="M21.538 7.5c.015.213.015.426.015.64 0 6.522-4.963 14.04-14.04 14.04v-.004A13.97 13.97 0 0 1 0 19.93a9.935 9.935 0 0 0 1.167.067 9.88 9.88 0 0 0 6.102-2.102 4.94 4.94 0 0 1-4.615-3.43 4.93 4.93 0 0 0 2.227-.085A4.94 4.94 0 0 1 .98 9.52v-.062a4.91 4.91 0 0 0 2.238.62A4.94 4.94 0 0 1 1.672 4.02a14.02 14.02 0 0 0 10.173 5.16 4.94 4.94 0 0 1 8.41-4.503 9.868 9.868 0 0 0 3.13-1.195 4.96 4.96 0 0 1-2.17 2.724A9.78 9.78 0 0 0 24 5.557a10.14 10.14 0 0 1-2.462 2.55z" />
-                </svg>
+                <FaXTwitter size={20} />
               </Link>
 
               {/* LinkedIn */}
@@ -34,14 +29,7 @@ export default function Footer() {
                 href="#"
                 className="p-2 rounded-lg bg-[#1a1a1a] hover:bg-[#fa343a] transition"
               >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="white"
-                  viewBox="0 0 24 24"
-                  className="w-5 h-5"
-                >
-                  <path d="M19 0h-14a5 5 0 0 0-5 5v14a5 5 0 0 0 5 5h14a5 5 0 0 0 5-5v-14a5 5 0 0 0-5-5zm-11.5 20h-3v-11h3v11zm-1.5-12.268a1.732 1.732 0 1 1 0-3.464 1.732 1.732 0 0 1 0 3.464zm14 12.268h-3v-5.5c0-3.036-3.5-2.796-3.5 0v5.5h-3v-11h3v1.688c1.396-2.586 6.5-2.777 6.5 2.476v6.836z" />
-                </svg>
+                <FaLinkedinIn size={20} />
               </Link>
             </div>
           </div>
