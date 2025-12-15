@@ -20,7 +20,7 @@ function Hero() {
           </p>
 
           <a
-            href="https://wa.me/2340000000000"
+            href="https://wa.me/2348116074956"
             target="_blank"
             rel="noopener noreferrer"
             className="w-full sm:w-auto mt-7 bg-[#fa343a] text-white px-6 py-3 rounded-xl text-sm sm:text-base font-semibold 

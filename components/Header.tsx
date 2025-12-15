@@ -30,7 +30,7 @@ function Header() {
         </div>
 
         <a
-          href="https://wa.me/2340000000000"
+          href="https://wa.me/2348116074956"
           target="_blank"
           rel="noopener noreferrer"
           className="text-white animate-spin bg-[#fa343a] hover:bg-[#e30a11] w-10 h-10 rounded-full text-sm font-medium shadow-sm hover:shadow-md flex justify-center items-center gap-2"

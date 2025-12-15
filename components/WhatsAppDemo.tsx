@@ -16,7 +16,7 @@ export default function WhatsAppDemo() {
           </p>
 
           <a
-            href="https://wa.me/2340000000000"
+            href="https://wa.me/2348116074956"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block mt-6 bg-[#fa343a] text-white px-6 py-3 rounded-xl text-sm md:text-base font-semibold hover:bg-[#e30a11] transition shadow-sm hover:shadow-lg"
