@@ -1,4 +1,4 @@
-## Yard - Whatsapp AI Powered Housing Agent
+## Yard - Whatsapp AI Powered Real Estate Housing Agent
 
 **Yard** is an AI-powered WhatsApp chatbot that helps users **find houses and real estate properties** quickly. It leverages **OpenAI GPT** for natural language understanding and **AWS Lambda** for serverless deployment.
 
